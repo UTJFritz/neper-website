@@ -1,0 +1,48 @@
+.. _downloads_link:
+
+Downloads
+=========
+
+Neper is distributed as a free / open-source software, under the
+terms of the
+`GNU General Public License (GPL) <http://www.gnu.org/licenses/gpl.html>`_. In short, this means
+that everyone is free to use Neper and to redistribute it on a free
+basis. Neper is not in the public domain; it is copyrighted and there
+are restrictions on its distribution (see the
+`license <http://www.gnu.org/licenses/gpl.html>`_ and the related
+`FAQ <http://www.gnu.org/copyleft/gpl-faq.html>`_).
+
+It you use Neper for your own work, please mention it explicitly and cite one or several of the papers given in the References section below.  The papers are available for download.
+
+Current official release
+------------------------
+
+- `neper-3.5.2.tgz (12 Mar 2020) <tarballs/neper-3.5.2.tgz>`_: source code and documentation
+- `neper.pdf <docs/neper.pdf>`_: documentation
+
+Development repository
+----------------------
+
+The development version is hosted on GitHub:
+https://github.com/rquey/neper.  This is also the place for code contributions, see the `community <community.html#contributing>`_ page.
+
+Supplementary software
+----------------------
+
+- Dependencies:
+  `GSL  <http://www.gnu.org/software/gsl/>`_,
+  `muParser  <http://beltoforion.de/article.php?a=muparser>`_ (included in Neper),
+  `nanoflann  <https://github.com/jlblancoc/nanoflann>`_ (included in Neper),
+  `Gmsh <http://gmsh.info/>`_,
+  `libScotch <http://www.labri.fr/perso/pelegrin/scotch>`_,
+  `POV-Ray <http://www.povray.org>`_
+- Old versions of Neper can be accessed from the `GitHub repository <https://github.com/rquey/neper/releases>`_ (documentation not compiled) or `here <tarballs>`_.
+
+References
+----------
+
+- Romain Quey, Paul Dawson and Fabrice Barbe, Large-scale 3D random polycrystals for the finite element method: Generation, meshing and remeshing, Comput. Methods Appl. Mech. Engrg., vol. 200, pp. 1729-1745, 2011: `paper <docs/neper-reference-paper.pdf>`_
+
+- Romain Quey and Loïc Renversade, Optimal polyhedral description of 3D polycrystals: Method and application to statistical and synchrotron X-ray diffraction data, Comput. Methods Appl. Mech. Engrg., vol. 330, pp. 308-333, 2018: `postprint <https://hal.archives-ouvertes.fr/hal-01626440>`_ `link <https://www.sciencedirect.com/science/article/pii/S0045782517307028>`_
+
+- Romain Quey, Aurelien Villani and Claire Maurice, Nearly uniform sampling of crystal orientations. J. Appl. Crystallogr., vol. 51, pp. 1162-1173, 2018. `reprint <docs/quey-villani-maurice-JAC-2018.pdf>`_ `link <http://scripts.iucr.org/cgi-bin/paper?buy=yes&cnor=ks5599&showscheme=yes>`_
