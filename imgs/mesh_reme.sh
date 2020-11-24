@@ -1,17 +1,17 @@
 #!/bin/bash
 
 NEPER="neper --rcfile none"
-# 
+#
 # if [ -a "neper.msh" ]
 # then
 #   cp neper.msh mesh_reme_t.msh
 # else
 #   exit -1
 # fi
-# 
+#
 eps1="1"
 z1="0.5"
-# 
+#
 # # $NEPER -M -loadmesh mesh_reme_t.msh -statnode x,y,z -for ""
 awk '{print $1-0.25,$2-0.25,$3-0.5}'      mesh_reme_t.stnode > xyz
 awk -v eps1="$eps1" -v z1="$z1" '{print 0}' xyz > dx
@@ -40,7 +40,7 @@ do
 	    -cameracoo x:y+4.5:z		 \
 	    -print mesh_reme_$i
 done
-	   
+
 convert +append mesh_reme_?.png mesh_reme.png
 
 exit 0

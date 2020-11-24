@@ -7,11 +7,8 @@ size(600,600,IgnoreAspect);
 
 defaultpen(fontsize(24pt)+black);
 
-file fin=input("gen_reg_1.stedge");
+file fin=input("gene_regu_1.stelt");
 real[] a=fin;
-
-file fin=input("gen_reg_2.stedge");
-real[] b=fin;
 
 int N=60;
 histogram(a,0,2.5,N,normalize=true,low=0,invisible,red+linewidth(2),bars=false);
