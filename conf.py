@@ -40,7 +40,7 @@ copyright = u'2016, Romain Quey'
 # built documents.
 #
 # The short X.Y version.
-version = 'version 4.2.0 (28 Jan 2021)'
+version = 'version 4.2.0 (11 Jun 2021)'
 # The full version, including alpha/beta/rc tags.
 release = '4.2.0'
 
